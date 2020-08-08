@@ -1,5 +1,5 @@
 import React, { useState} from 'react';
-
+import './room.css';
 
 function Room() {
   let [isLit, setLit] = useState(false);
