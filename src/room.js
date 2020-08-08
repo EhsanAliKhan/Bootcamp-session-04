@@ -14,18 +14,6 @@ function Room() {
       <button onClick={()=>setLit(!isLit)}>Update Time</button>
       <button onClick={()=>setCount(++count)}>Update Age</button>
     </div>
-
-
-
-
-    <div className={}>
-        <h1>Now it's ={isMorning?'Morning':'Night'} time. </h1>
-
-        <Message counter = {count}/>
-        <br />
-
-        
-    </div>
   );
 }
 
