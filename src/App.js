@@ -1,11 +1,8 @@
 import React from 'react';
-import Message from './message.js'
-import Room from './room.js'
+import Room from './room'
 function App() {
   return (
-    <div className="box">
       <room></room>
-    </div>
   );
 }
 
