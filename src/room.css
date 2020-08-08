@@ -6,8 +6,8 @@
 .lit{
     background-color: lightgreen;
     color: black;
-    margin-top: 50px;
-    margin-left: 100px;
+    padding-top: 50px;
+    padding-left: 100px;
 }
 
 .dark{
