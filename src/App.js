@@ -1,8 +1,8 @@
 import React from 'react';
-import Room from './room'
+import Room from './room';
 function App() {
   return (
-      <room></room>
+      <Room></Room>
   );
 }
 
