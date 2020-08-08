@@ -6,7 +6,6 @@ function Room() {
   let [count, setCount] = useState(1);
     
   return (
-    <div className ="complete">
       <div className={`room ${isLit? 'lit':'dark'}`}>
         This Room is {isLit? "lit":"dark"}
         <br/>
@@ -15,7 +14,6 @@ function Room() {
         <button onClick={()=>setLit(!isLit)}>Update Time</button>
         <button onClick={()=>setCount(++count)}>Update Age</button>
       </div>
-    </div>
   );
 }
 
