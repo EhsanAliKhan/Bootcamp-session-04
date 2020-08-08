@@ -1,13 +1,13 @@
-.room{
-    height : 100vh;
+.complete{
+    text-align: center;
+}
 
-    
+.room{
+    height : 100vh;    
 }
 .lit{
     background-color: lightgreen;
     color: black;
-    padding-top: 50px;
-    padding-left: 100px;
 }
 
 .dark{
