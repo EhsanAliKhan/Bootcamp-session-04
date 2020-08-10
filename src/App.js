@@ -1,5 +1,4 @@
 import React from 'react';
-import Message from './message.js'
 import Room from './room.js'
 function App() {
   return (
