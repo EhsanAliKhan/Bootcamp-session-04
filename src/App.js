@@ -1,6 +1,6 @@
 import React from 'react';
 import Room from './room.js'
-import Room from './room';
+import './room.css';
 function App() {
   return (
       <Room />
