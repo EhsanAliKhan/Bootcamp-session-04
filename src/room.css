@@ -1,7 +1,13 @@
-.box{
-    height : 1000px;
-    background-color: lightgreen;
+.room{
+    height : 100vh;
+    text-align: center;    
 }
-.dayLight{
+.lit{
+    background-color: lightgreen;
+    color: black;
+}
+
+.dark{
     background-color: yellowgreen;
+    color: white;
 }

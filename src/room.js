@@ -1,21 +1,19 @@
-import React, { useState } from 'react';
-import Message from './message.js';
+import React, { useState} from 'react';
 import './room.css';
 
-
 function Room() {
-    let [count, setCount] = useState(1);
-    let [isMorning, setMorning] = useState(false);
-    return (
-    <div className={`box ${isMorning? 'dayLight':''}`}>
-        <h1>Now it's ={isMorning?'Morning':'Night'} time. </h1>
-
-        <Message counter = {count}/>
-        <br />
-
-        <button onClick={()=>setCount(++count)}>Increment counter</button>
-        <button onClick={()=>setMorning(!isMorning)}>Update Time</button>
-    </div>
+  let [isLit, setLit] = useState(false);
+  let [count, setCount] = useState(1);
+    
+  return (
+      <div className={`room ${isLit? 'lit':'dark'}`}>
+        This Room is {isLit? "lit":"dark"}
+        <br/>
+        Age: {count}
+        <br/>
+        <button onClick={()=>setLit(!isLit)}>Update Time</button>
+        <button onClick={()=>setCount(++count)}>Update Age</button>
+      </div>
   );
 }
 
