@@ -2,7 +2,7 @@ import React, { useState} from 'react';
 import './room.css';
 
 function Room() {
-  let [isLit, setLit] = useState(false);
+  let [isLit, setLit] = useState(true);
   let [count, setCount] = useState(1);
     
   return (
